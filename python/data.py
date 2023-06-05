@@ -50,10 +50,10 @@
 # Code by Pontus Andersson, Jim Nilsson, and Tomas Akenine-Moller.
 
 import numpy as np
-import OpenEXR as exr
-import Imath
+#import OpenEXR as exr
+#import Imath
 from PIL import Image
-
+Imath = ""
 def HWCtoCHW(x):
 	"""
 	Transforms an image from HxWxC layout to CxHxW
